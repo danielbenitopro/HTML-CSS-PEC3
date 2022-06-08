@@ -1,0 +1,631 @@
+/* Aspectos Generales */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main h1,
+h2,
+h3,
+h4 {
+	color: #2A2A2A;
+}
+
+
+main p {
+	color: #2A2A2A;
+}
+
+/* Estilos Hover */
+
+.menu li a:hover {
+	color: #79BAAB;
+}
+
+footer a:hover {
+	color: #79BAAB;
+}
+
+footer a img:hover {
+	opacity: 0.7;
+	;
+}
+
+.pasapagina a:hover {
+	color: #C5E1DB;
+}
+
+.botonazul:hover {
+	color: white;
+	background-color: #79BAAB;
+}
+
+.producto a:hover {
+	color: #79BAAB;
+}
+
+.productosder a:hover {
+	color: whitesmoke;
+}
+
+#trestienda h4 a:hover {
+	color: #79BAAB;
+}
+
+
+/* Menú Común */
+nav ul {
+	list-style: none;
+	font-size: 1.4rem;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+header.header {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	background: white;
+	box-shadow: 0px 10px 10px -12px black;
+	margin: 0;
+	width: 100%;
+	height: 70px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+}
+
+nav ul li.active a {
+	font-weight: 700;
+	border-bottom: 1px dashed #000000;
+	padding-bottom: 5px;
+}
+
+/* Newsletter Común */
+#newsletter {
+	background-color: #79BAAB;
+	background-image: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url('../img/doodle.png');
+	background-size: auto;
+}
+
+.bg-newsletter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 10px;
+	width: 100%;
+	height: 200px;
+}
+
+.botonnews {
+	background-color: #DC4A23;
+	border: 2px solid #DC4A23;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 6px 2px;
+	cursor: pointer;
+}
+
+.botonnews:hover {
+	background-color: #EB9781;
+	border: 2px solid #EB9781;
+}
+
+.mailnews {
+	width: 300px;
+	padding: 12px;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+}
+
+/* Footer Común */
+footer {
+	background-color: #2A2A2A;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
+/* Página Vídeos Común */
+main {
+	background-color: #FFF7E8;
+}
+
+.video {
+	background-color: white;
+}
+
+.vidheader {
+	padding: 15px 0px;
+}
+
+.video h5 {
+	padding: 10px;
+}
+
+.video p {
+	padding: 0px 5px 15px 10px;
+}
+
+iframe {
+	border: none;
+}
+
+/* Página Tienda Común · Recipes */
+.pasapagina a {
+	text-decoration: none;
+	color: #79BAAB;
+	text-align: center;
+}
+
+#trestienda a {
+	text-decoration: none;
+	color: #2A2A2A;
+}
+
+.pasapagina {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	padding: 30px 0px;
+}
+
+.producto {
+	width: 260px;
+	margin: 0px 10px;
+}
+
+.producto img {
+	width: 260px;
+	height: 260px;
+}
+
+.producto h4 {
+	padding: 5px 0px 15px 0px;
+}
+
+.producto a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* Index General */
+
+#unoindex {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	background-image: url(../img/knife-bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+h2:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+h2:after {
+	left: 0.5em;
+	margin-right: -50%;
+}
+
+.shop-index {
+	background-image: url(../img/shop-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.shopbox {
+	width: 50%;
+	height: 250px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.shopbox a {
+	color: #DC4A23;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.shopbox p {
+	padding: 0px 10px;
+}
+
+:hover.shopbox a {
+	color: #EB9781;
+}
+
+.titularindex {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.titulorayas {
+	width: 50%;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	line-height: 0.1em;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+}
+
+.titulorayas span {
+	background: #ffffff;
+	padding: 0 10px;
+}
+
+.pickizquierda h2 {
+	font-size: 30px;
+}
+
+.pickizquierda {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+	padding: 20px 0px 20px 0px;
+}
+
+.botonazul {
+	width: 20%;
+	padding: 10px;
+	color: #79BAAB;
+	background-color: white;
+	border: 2px solid #79BAAB;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+
+}
+
+.pickderecha {
+	width: 50%;
+	height: 400px;
+	display: flex;
+	justify-content: right;
+	padding: 20px 0px 20px 0px;
+}
+
+/* ESTILOS GENERALES */
+
+.buscador {
+	background: url(../img/icons/search.svg) left no-repeat;
+	background-position-x: calc(5%);
+	background-color: #ffffff;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #79BAAB;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.buscadorgeneral {
+	background: url(../img/icons/search.svg) left no-repeat;
+	background-position-x: calc(3%);
+	background-color: #ffffff;
+	padding: 15px;
+	font-size: 14px;
+	border: 1px solid #79BAAB;
+	border-radius: 2px;
+	cursor: pointer;
+	width: 350px;
+
+}
+
+input[type=search] {
+	padding-left: 40px;
+}
+
+/* Mobile First */
+@media screen and (max-width: 700px) {
+	header.header {
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #ddd;
+		background: white;
+		box-shadow: 0px 10px 10px -12px black;
+		margin: 0;
+		width: 100%;
+		height: 120px;
+	}
+
+	/* MENU */
+	nav {
+		padding-top: 10px;
+		padding-bottom: 60px;
+	}
+
+	.logo {
+		width: 230px;
+	}
+
+	nav ul li {
+		padding: 3px;
+		display: inline-block;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	/* Footer */
+	footer {
+		text-align: center;
+	}
+
+	.nodisplaym {
+		display: none;
+	}
+
+	.left {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 10px;
+	}
+
+	.footertitle {
+		padding: 10px 0px;
+	}
+
+
+	.right {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 10px;
+		padding: 10px 10px;
+	}
+
+	.name {
+		padding: 20px 0px 10px 0px;
+	}
+
+	/* Página Vídeos Móvil */
+	.vidheader {
+		text-align: center;
+		margin: 0px 10px;
+	}
+
+	.video {
+		max-width: 530px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	/* Página Tienda Móvil · Recipes */
+	.filtrado {
+		display: none;
+	}
+
+	.productosder {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex-grow: 2;
+		gap: 10px;
+		margin: 0px 15px;
+	}
+
+	/* Indes Mobile */
+
+	.lastmeals {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex-grow: 2;
+		gap: 10px;
+		margin: 20px 10px;
+	}
+
+	#trestienda {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0px 30px;
+	}
+
+	.pickderecha {
+		display: flex;
+		justify-content: center;
+	}
+
+}
+
+@media screen and (min-width: 700px) {
+
+	/* Menú Desktop */
+	.header {
+		background: #333;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		width: 230px;
+		padding: 10px 0px 10px 30px;
+	}
+
+	.menu {
+		display: flex;
+	}
+
+	nav li {
+		margin: 10px 20px 10px 1px;
+	}
+
+	nav li:last-child {
+		margin: 10px 50px 10px 1px;
+	}
+
+	/* Footer Desktop */
+	.nodisplayd {
+		display: none;
+	}
+
+	.name {
+		display: none;
+	}
+
+	.footertitle {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	.social {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		gap: 12px;
+		padding-bottom: 10px;
+		font-weight: 600;
+	}
+
+	.cookies {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 12px;
+		padding-top: 25px;
+		padding-bottom: 15px;
+		font-weight: 600;
+	}
+
+	.right {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+	}
+
+	/* Página Vídeos Desktop */
+	.vidheader {
+		text-align: center;
+	}
+
+	.video {
+		max-width: 530px;
+		margin-bottom: 20px;
+	}
+
+	.vidheader {
+		text-align: left;
+	}
+
+	#dos {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex-grow: 3;
+		gap: 10px;
+	}
+
+	/* Página Tienda Desktop · Recipes*/
+
+	.filtrado {
+		display: flex;
+		flex-direction: column;
+		align-content: flex-start;
+		flex-wrap: wrap;
+		gap: 5px;
+		background-color: white;
+		padding: 10px;
+	}
+
+	.productosder {
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 0;
+	}
+
+	.producto {
+		width: calc(33.3333333% - 20px);
+	}
+
+	#trestienda {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+	}
+
+	/* Index Desktop */
+
+	.lastmeals {
+		display: flex;
+		flex-direction: row;
+		align-content: flex-start;
+		padding: 20px 0px;
+	}
+
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.footertitle {
+	font-weight: 600;
+}
+
+footer ul {
+	list-style: none;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.bg-newsletter {
+	background-image: url(../img/doodle.jpg);
+}
